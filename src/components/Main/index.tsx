@@ -1,11 +1,13 @@
+import { Text } from 'react-native'
 import { StatusBar } from 'expo-status-bar'
-import { Text, View } from 'react-native'
+
+import * as S from './styles'
 
 export default function App() {
   return (
-    <View>
+    <S.Wrapper>
       <Text>Ultimate expo template!</Text>
       <StatusBar style="auto" />
-    </View>
+    </S.Wrapper>
   )
 }
