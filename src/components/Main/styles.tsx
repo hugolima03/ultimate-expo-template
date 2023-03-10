@@ -25,5 +25,6 @@ export const Text = styled.Text`
     color: ${theme.colors.uiTextPrimary};
     font-size: 16px;
     margin-bottom: 8px;
+    font-weight: 300;
   `}
 `
