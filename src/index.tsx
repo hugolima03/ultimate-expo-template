@@ -4,7 +4,7 @@ import { Text, View } from 'react-native'
 export default function App() {
   return (
     <View>
-      <Text>Open up App.tsx to start working on your app!</Text>
+      <Text>Ultimate expo template!</Text>
       <StatusBar style="auto" />
     </View>
   )
