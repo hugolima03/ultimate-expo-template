@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { render } from '@testing-library/react-native'
 import { ThemeProvider } from 'styled-components/native'
-import theme from '../styles/theme'
+import theme from 'styles/theme'
 
 declare type Options = {
   wrapper?: React.ComponentType<any>

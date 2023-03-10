@@ -2,7 +2,7 @@ import { StatusBar } from 'expo-status-bar'
 
 import { ThemeProvider } from 'styled-components/native'
 
-import theme from '../../styles/theme'
+import theme from 'styles/theme'
 
 import * as S from './styles'
 
@@ -19,6 +19,7 @@ export default function App() {
         <S.Text>Expo routers</S.Text>
         <S.Text>Styled Components</S.Text>
         <S.Text>Jest / Unit tests</S.Text>
+        <S.Text>Absolute imports</S.Text>
       </S.Wrapper>
     </ThemeProvider>
   )
