@@ -9,8 +9,21 @@ export const Wrapper = styled.View`
   `}
 `
 
+export const Title = styled.Text`
+  ${({ theme }) => css`
+    color: ${theme.colors.uiTextPrimary};
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+
+    margin-bottom: 24px;
+  `}
+`
+
 export const Text = styled.Text`
   ${({ theme }) => css`
     color: ${theme.colors.uiTextPrimary};
+    font-size: 16px;
+    margin-bottom: 8px;
   `}
 `

@@ -2,11 +2,11 @@ import React from 'react'
 
 import { render, screen } from '@testing-library/react-native'
 
-import App from '.'
+import Main from '.'
 
-describe('<App />', () => {
+describe('<Main />', () => {
   it('has 1 child', () => {
-    render(<App />)
-    expect(screen.getByText(/Ultimate expo template!/i))
+    render(<Main />)
+    expect(screen.getByText(/React 18/i))
   })
 })

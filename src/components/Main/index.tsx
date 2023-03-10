@@ -10,8 +10,15 @@ export default function App() {
   return (
     <ThemeProvider theme={theme}>
       <S.Wrapper>
-        <StatusBar style="inverted" />
-        <S.Text>Ultimate expo template!</S.Text>
+        <StatusBar style="light" />
+        <S.Title>{`Ultimate Expo\nTemplate🔥`}</S.Title>
+
+        <S.Text>React 18</S.Text>
+        <S.Text>React Native 0.71.3</S.Text>
+        <S.Text>Typescript</S.Text>
+        <S.Text>Expo routers</S.Text>
+        <S.Text>Styled Components</S.Text>
+        <S.Text>Jest / Unit tests</S.Text>
       </S.Wrapper>
     </ThemeProvider>
   )
