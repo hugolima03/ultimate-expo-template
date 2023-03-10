@@ -1,8 +1,16 @@
-import styled from 'styled-components/native'
+import styled, { css } from 'styled-components/native'
 
 export const Wrapper = styled.View`
-  flex: 1;
-  background-color: #fff;
-  align-items: center;
-  justify-content: center;
+  ${({ theme }) => css`
+    flex: 1;
+    background-color: ${theme.colors.mainBg};
+    align-items: center;
+    justify-content: center;
+  `}
+`
+
+export const Text = styled.Text`
+  ${({ theme }) => css`
+    color: ${theme.colors.uiTextPrimary};
+  `}
 `
