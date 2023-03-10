@@ -1,2 +1,3 @@
-import App from './src/index'
-export default App
+import Main from './src/components/Main'
+
+export default Main
