@@ -3,6 +3,7 @@ module.exports = function (api) {
   return {
     presets: ['babel-preset-expo', '@babel/preset-typescript'],
     plugins: [
+      require.resolve('expo-router/babel'),
       [
         'module-resolver',
         {

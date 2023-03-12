@@ -2,6 +2,7 @@
   "expo": {
     "name": "ultimate-expo-template",
     "slug": "ultimate-expo-template",
+    "scheme": "ultimate-expo-template",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -24,7 +25,8 @@
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
     }
   }
 }
