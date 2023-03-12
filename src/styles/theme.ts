@@ -8,8 +8,8 @@ const theme = {
     sizes: {}
   },
   colors: {
-    mainBg: '#151718',
-    uiTextPrimary: '#ECEDEE'
+    mainBg: '#171717',
+    uiTextPrimary: '#EDEDED'
   },
   gradients: {},
   spacings: {},
