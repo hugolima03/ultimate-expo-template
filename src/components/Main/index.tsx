@@ -1,26 +1,20 @@
 import { StatusBar } from 'expo-status-bar'
 
-import { ThemeProvider } from 'styled-components/native'
-
-import theme from 'styles/theme'
-
 import * as S from './styles'
 
 export default function App() {
   return (
-    <ThemeProvider theme={theme}>
-      <S.Wrapper>
-        <StatusBar style="light" />
-        <S.Title>{`Ultimate Expo\nTemplate🔥`}</S.Title>
+    <S.Wrapper>
+      <StatusBar style="light" />
+      <S.Title>{`Ultimate Expo\nTemplate🔥`}</S.Title>
 
-        <S.Text>React 18</S.Text>
-        <S.Text>React Native 0.71.3</S.Text>
-        <S.Text>Typescript</S.Text>
-        <S.Text>Expo routers</S.Text>
-        <S.Text>Styled Components</S.Text>
-        <S.Text>Jest / Unit tests</S.Text>
-        <S.Text>Absolute imports</S.Text>
-      </S.Wrapper>
-    </ThemeProvider>
+      <S.Text>React 18</S.Text>
+      <S.Text>React Native 0.71.3</S.Text>
+      <S.Text>Typescript</S.Text>
+      <S.Text>Expo routers</S.Text>
+      <S.Text>Styled Components</S.Text>
+      <S.Text>Jest / Unit tests</S.Text>
+      <S.Text>Absolute imports</S.Text>
+    </S.Wrapper>
   )
 }
